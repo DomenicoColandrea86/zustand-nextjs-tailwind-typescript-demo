@@ -1,12 +1,12 @@
 import create from 'zustand';
 import { devtools } from 'zustand/middleware';
 
-interface State {
+export interface IState {
   bears: number
   increaseBearPopulation: (by: number) => void
 }
 
-export const useStore = create<State>()(
+export const useStore = create<IState>()(
   devtools(
     (set) => ({
       bears: 0,

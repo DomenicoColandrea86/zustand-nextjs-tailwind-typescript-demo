@@ -1,11 +1,22 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useStore } from "../store";
+import { IState, useStore } from "../store";
 import styles from "../styles/Home.module.css";
 
+// It is generally recommended to memoize selectors with useCallback.
+// This will prevent unnecessary computations each render.
+// It also allows React to optimize performance in concurrent mode.
+
+// If a selector doesn't depend on scope
+// you can define it outside the render function
+// to obtain a fixed reference without useCallback.
+
+const bearsSelector = (state: IState) => state.bears;
+const increaseBearPopulationSelector = (state: IState) => state.increaseBearPopulation;
+
 const Home: NextPage = () => {
-  const bears = useStore((state) => state.bears);
-  const increaseBearPopulation = useStore((state) => state.increaseBearPopulation);
+  const bears = useStore(bearsSelector);
+  const increaseBearPopulation = useStore(increaseBearPopulationSelector);
   const increaseBearCount = () => increaseBearPopulation(1);
 
   return (
