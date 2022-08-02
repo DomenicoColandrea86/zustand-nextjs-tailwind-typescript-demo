@@ -15,3 +15,5 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Live link: https://zustand-nextjs-tailwind-typescript-demo.vercel.app
