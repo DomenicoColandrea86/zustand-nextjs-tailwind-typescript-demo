@@ -1,16 +1,20 @@
-import create from 'zustand';
-import { devtools } from 'zustand/middleware';
+import create from "zustand";
+import { devtools } from "zustand/middleware";
 
 export interface IState {
-  bears: number
-  increaseBearPopulation: (by: number) => void
+  butterflies: number;
+  addButterfly: (by: number) => void;
+  removeButterfly: (by: number) => void;
+  reset: () => void;
 }
 
 export const useStore = create<IState>()(
-  devtools(
-    (set) => ({
-      bears: 0,
-      increaseBearPopulation: (by) => set((state) => ({ bears: state.bears + by })),
-    })
-  )
+  devtools((set) => ({
+    butterflies: 0,
+    addButterfly: (by: number) =>
+      set((state) => ({ butterflies: state.butterflies + by })),
+    removeButterfly: (by: number) =>
+      set((state) => ({ butterflies: state.butterflies - by })),
+    reset: () => set((state) => ({ butterflies: 0 })),
+  }))
 );

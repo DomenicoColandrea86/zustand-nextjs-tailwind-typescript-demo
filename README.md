@@ -1,6 +1,6 @@
 # Zustand Nextjs Tailwind Typescript Demo
 
-Bear necessities for state management in React with Zustand 🐻
+Demo app showcasing state management in React with Zustand
 
 ## Quick Start
 
