@@ -5,7 +5,7 @@ const Count = () => {
   const numberOfButterflies = useStore(butterfliesSelector);
   return (
     <p className="text-2xl dark:text-white pb-2">
-      Number of Butterflies: {numberOfButterflies}
+      Total Butterflies: {numberOfButterflies}
     </p>
   );
 };

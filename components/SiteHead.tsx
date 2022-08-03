@@ -3,7 +3,7 @@ import Head from "next/head";
 const SiteHead = () => {
   return (
     <Head>
-      <title>Zustand Next.js Tailwind Typescript Demo</title>
+      <title>🦋🌼🌷</title>
       <meta name="description" content="add some butterflies!" />
       <link rel="icon" href="/favicon.ico" />
     </Head>

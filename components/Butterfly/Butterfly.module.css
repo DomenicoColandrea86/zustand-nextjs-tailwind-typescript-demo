@@ -85,53 +85,62 @@
 
 .butterfly:nth-of-type(0) {
   left: 1%;
+  font-size: 75px;
   -webkit-animation-delay: 0s, 0s;
   animation-delay: 0s, 0s
 }
 
 .butterfly:nth-of-type(1) {
   left: 10%;
+  font-size: 50px;
   -webkit-animation-delay: 1s, 1s;
   animation-delay: 1s, 1s
 }
 
 .butterfly:nth-of-type(2) {
+  font-size: 65px;
   left: 20%;
   -webkit-animation-delay: 6s, .5s;
   animation-delay: 6s, .5s
 }
 
 .butterfly:nth-of-type(3) {
+  font-size: 100px;
   left: 30%;
   -webkit-animation-delay: 4s, 2s;
   animation-delay: 4s, 2s
 }
 
 .butterfly:nth-of-type(4) {
+  font-size: 60px;
   left: 40%;
   -webkit-animation-delay: 2s, 2s;
   animation-delay: 2s, 2s
 }
 
 .butterfly:nth-of-type(5) {
+  font-size: 75px;
   left: 50%;
   -webkit-animation-delay: 8s, 3s;
   animation-delay: 8s, 3s
 }
 
 .butterfly:nth-of-type(6) {
+  font-size: 65px;
   left: 60%;
   -webkit-animation-delay: 6s, 2s;
   animation-delay: 6s, 2s
 }
 
 .butterfly:nth-of-type(7) {
+  font-size: 90px;
   left: 70%;
   -webkit-animation-delay: 2.5s, 1s;
   animation-delay: 2.5s, 1s
 }
 
 .butterfly:nth-of-type(8) {
+  font-size: 50px;
   left: 80%;
   -webkit-animation-delay: 1s, 0s;
   animation-delay: 1s, 0s
@@ -139,18 +148,21 @@
 
 .butterfly:nth-of-type(9) {
   left: 90%;
+  font-size: 75px;
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s
 }
 
 .butterfly:nth-of-type(10) {
   left: 25%;
+  font-size: 70px;
   -webkit-animation-delay: 2s, 0s;
   animation-delay: 2s, 0s
 }
 
 .butterfly:nth-of-type(11) {
   left: 65%;
+  font-size: 65px;
   -webkit-animation-delay: 4s, 2.5s;
   animation-delay: 4s, 2.5s
 }
