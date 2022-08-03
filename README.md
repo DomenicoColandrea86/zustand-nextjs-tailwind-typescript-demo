@@ -1,4 +1,4 @@
-# Zustand Nextjs Tailwind Typescript Demo
+# Zustand Nextjs Tailwind Typescript Demo 🦋
 
 Demo app showcasing state management in React with Zustand
 
